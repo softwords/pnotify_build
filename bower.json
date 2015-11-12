@@ -1,0 +1,27 @@
+{
+    "name": "pnotify_build",
+	"version": "2.1.0",
+    "description": "JavaScript notification plugin.",
+    "main": [
+        "pnotify.custom.css",
+		"pnotify.custom.js"
+    ],
+    "ignore": [
+        "build-tools/",
+        "includes/",
+        "devnote*.*",
+        "index.html",
+        "testing.html",
+        "buildcustom.php",
+        "package.json",
+        "src/pnotify.material.css",
+        "src/pnotify.reference.js",
+        "src/pnotify.reference.min.js",
+        "src/pnotify.tooltip.js",
+        "src/pnotify.tooltip.min.js"
+    ],
+	"dependencies": {
+		"bootstrap": "^3.3.5",
+		"jquery": "^1.6.0"
+	}
+}
